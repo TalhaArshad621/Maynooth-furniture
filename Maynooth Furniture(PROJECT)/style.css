@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Roboto:wght@300&display=swap");
+/*  Sass Template  */
+/* Global Clases */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Typography */
+.font-heading {
+  font-family: "Roboto", cursive;
+}
+
+.font-welcome {
+  font-family: "Dancing Script", cursive;
+}
+
+.font-content {
+  font-family: "Montserrat", cursive;
+}
+
+.font-size-12 {
+  font-size: 0.75rem;
+}
+
+.font-size-14 {
+  font-size: 0.875rem;
+}
+
+.font-size-16 {
+  font-size: 1rem;
+}
+
+.font-size-20 {
+  font-size: 1.25rem;
+}
+
+/* Colors */
+.color-primary {
+  color: #FFE3CB;
+}
+
+.color-primary-bg {
+  background: #FFE3CB;
+}
+
+.color-second {
+  color: #BF4226;
+}
+
+.color-second-bg {
+  background: #BF4226;
+}
+
+.color-third {
+  color: #025949;
+}
+
+.color-third-bg {
+  background: #025949;
+}
+
+/* New In Store Template*/
+#new-in-store .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#new-in-store .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#new-in-store .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+
+/* Changes */
+.carousel-caption {
+  margin-bottom: 120px;
+}
+
+.info {
+  text-align: center;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.info ul {
+  list-style-type: none;
+}
+
+.info ul li img {
+  width: 40px;
+  padding-bottom: 1em;
+}
+
+.btn {
+  color: white;
+}
+
+.top-sale_heading {
+  font-weight: 700;
+  text-align: center;
+}
+
+hr {
+  width: 20%;
+  border: 0.75px solid;
+}
+
+.inspirational-heading {
+  font-weight: 600;
+}
+
+.image img {
+  width: 571px;
+  height: 468px;
+  padding-right: 1em;
+}
+
+.content {
+  text-align: center;
+  padding-top: 8em;
+  padding-right: 1em;
+}
+
+.image-bottom img {
+  width: 571px;
+  height: 468px;
+  padding-left: 1em;
+}
+
+.content-bottom {
+  text-align: center;
+  padding-top: 8em;
+  padding-left: 1em;
+}
+
+.sale {
+  align-items: center;
+}
+
+.sale img {
+  width: 100%;
+}
+
+.sale-content h4 {
+  font-weight: 600;
+}
+
+.item-list {
+  list-style-type: none;
+}
+
+.contact h6 {
+  padding-left: 3em;
+}
+
+.item a {
+  text-decoration: none;
+  color: grey;
+}
+
+.item-list a:hover {
+  color: white;
+}
+
+.Category-caption {
+  margin-bottom: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */
